@@ -15,7 +15,7 @@ const port = process.env.PORT;
 
 // database connection
 //process.env.MONGODBURI
-//mongodb+srv://Shrutiagrawal807:Shruti@1800@cluster0.vtocg.mongodb.net/Jewellary?retryWrites=true&w=majority
+
 const connect = async () => {
     try {
         const connection = await mongoose.connect(process.env.MONGODBURI,
