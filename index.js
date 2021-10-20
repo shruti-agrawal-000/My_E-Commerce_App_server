@@ -10,7 +10,7 @@ const bodyParser = require('body-parser');
 // const userRoutes = require("./routes/user.routes");
 
 // console.log( "urlll",process.env.MONGODBURI);
-// const port = 7000;
+
 const port = process.env.PORT;
 
 // database connection
